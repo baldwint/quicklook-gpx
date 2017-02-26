@@ -5,9 +5,9 @@ This is a simple QuickLook plugin to browse [GPX](http://www.topografix.com/gpx)
 ### Customization
 
 The plugin uses [OpenLayers](http://openlayers.org/) to render a map
-preview using map tiles for Norway provided by The Norwegian Mapping
-Authority, [Kartverket](http://kartverket.no/). To use different
-background map tiles, edit `template.html` and change `ol.source.XYZ`.
+preview using data from [OpenStreetMap](http://www.openstreetmap.org).
+To use different background map tiles, edit `template.html` and change
+`ol.source.OSM`.
 
 ### Installation Instructions
 
