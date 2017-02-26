@@ -25,10 +25,7 @@ body, #map {
 <script>
 var geoDataString = `{{GEODATASTRING}}`;
 var bgLayer = new ol.layer.Tile({
-  source: new ol.source.XYZ({
-    attributions: '<a href="http://kartverket.no/">Kartverket</a>',
-    url: 'http://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=topo2graatone&zoom={z}&x={x}&y={y}'
-  })
+  source: new ol.source.OSM()
 });
 var gpxLayer = new ol.layer.Vector({
   source: new ol.source.Vector({

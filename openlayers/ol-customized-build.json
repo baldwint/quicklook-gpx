@@ -8,6 +8,7 @@
     "ol.control.defaults",
     "ol.layer.Tile",
     "ol.source.XYZ",
+    "ol.source.OSM",
     "ol.layer.Vector",
     "ol.layer.Vector#getSource",
     "ol.source.Vector",
